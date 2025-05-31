@@ -73,3 +73,20 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Static Site Generation
+
+To generate a static version of the site:
+
+```bash
+# npm
+yarn generate
+```
+
+The static site will be output to the `dist/` directory. You can deploy this folder to any static hosting provider (e.g., GitHub Pages, Netlify, Vercel, etc).
+
+To locally preview the static build:
+
+```bash
+yarn preview
+```

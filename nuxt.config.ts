@@ -10,5 +10,8 @@ export default defineNuxtConfig({
   ui: {
     // Theme customization will be handled via Tailwind classes in components
   },
-  ssr: false
+  ssr: true,
+  nitro: {
+    preset: 'static'
+  }
 })
