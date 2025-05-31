@@ -83,7 +83,7 @@ To generate a static version of the site:
 yarn generate
 ```
 
-The static site will be output to the `dist/` directory. You can deploy this folder to any static hosting provider (e.g., GitHub Pages, Netlify, Vercel, etc).
+The static site will be output to the `.output/public` directory. You can deploy this folder to any static hosting provider (e.g., GitHub Pages, Netlify, Vercel, etc).
 
 To locally preview the static build:
 
