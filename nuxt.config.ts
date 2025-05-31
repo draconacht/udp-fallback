@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    baseURL: "https://udp.draconacht.dev"
-  },
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
   modules: [
@@ -13,4 +10,5 @@ export default defineNuxtConfig({
   ui: {
     // Theme customization will be handled via Tailwind classes in components
   },
+  ssr: false
 })
