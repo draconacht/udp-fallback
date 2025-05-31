@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: "https://draconacht.github.io/udp-fallback"
+    baseURL: "https://udp.draconacht.dev"
   },
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
